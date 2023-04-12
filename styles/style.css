@@ -1,0 +1,332 @@
+@font-face {
+    font-family: inter;
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+html {
+
+    font-size: 62.5%;
+}
+
+body {
+
+    width: 1920px;
+    height: 2301px;
+}
+
+.logo {
+
+    width: 200px;
+    height: 50px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 74px;
+
+}
+.ragaca {
+    display: flex;
+    font-family: inter;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    justify-content: space-evenly;
+    width: 700px;
+    margin-left: 100px;
+
+}
+
+button {
+    font-family: inter;
+    padding: 21px 35px 22px;
+    background-color: #6B77E5;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    color: #FFFFFF;
+    width: 184px;
+    height: 65px;
+}
+
+
+.work {
+    text-align: center;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #37393F;
+    margin-top: 140px;
+}
+
+.work1 {
+    font-family: poppins;
+    text-align: center;
+    color: #37393F;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 99px;
+}
+
+
+
+h1 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.1rem;
+    text-align: center;
+}
+
+h2 {
+
+    font-family: inter;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    text-align: center;
+    width: 300px;
+    margin-top: 16px;
+}
+
+h3 {
+    color: #6B77E5;
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+.cover {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1920px;
+    height: 557px;
+    backdrop-filter: blur(7px);
+    margin-top: 100px;
+    
+}
+
+.short{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 1.8rem;
+    width: 102px;
+    height: 22px;
+}
+
+.our {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #37393F;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    width: 349px;
+    height: 48px;
+}
+
+
+.coll {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #37393F;
+    font-weight: 400;
+    font-size: 1.8rem;
+    width: 511px;
+    height: 52px;
+    line-height: 2rem;
+}
+
+.play {
+
+    position: absolute;
+    border-radius: 50%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.humans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 31px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ourteam {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: inter;
+    width: 184px;
+    height: 22px;
+    line-height: 2.2rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-top: 140px;
+    color: #37393F;
+}
+
+
+.meet {
+    font-family: poppins;
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 48px;
+    width: 348px;
+    height: 48px;
+}
+
+
+.box1 {
+
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    padding: 24px, 69px, 24px, 69px;
+    background-color: #FFFFFF;
+    margin-top: -130px;
+    text-align: center;
+    margin-left: 45px;
+}
+
+h4 {
+
+    color: #37393F;
+    width: 250px;
+    height: 38px;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-top: 22px;
+    margin-left: 20px;
+    line-height: 3.8rem;
+}
+
+h5 {
+    text-align: center;
+    color: #7D7D7D;
+    width: 250px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+
+@media all and (max-width: 768px) {
+
+    body {
+
+        width: 576px;
+        flex-direction: column;
+    }
+    nav {
+        display: block;
+        margin-top: 74px;  
+    }
+    .ragaca a {
+        display: none;
+    }
+
+    .work {
+        display: none;
+    }
+
+    .work1 {
+
+        display: flex;
+    }
+    .boxes {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .box {
+        margin-left: 33%;
+        text-align: center;
+    }
+
+    .cover {
+        position: absolute;
+        height: auto;
+        width: 768px;
+        backdrop-filter: blur(7px);
+        gap: 10px;
+        margin-top: 100px;
+        
+    }
+
+    .humans {
+
+        display: block;
+        margin-top: 200px;
+        margin-left: 33%;
+    }
+
+    .box1 {
+
+        display: block;
+        margin-left: 12px;
+    
+    }
+
+
+    .team {
+        margin-top: 350px;
+        text-align: center;
+        margin-left: 30%;
+    }
+
+    
+    
+
+
+}
